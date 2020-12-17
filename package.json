@@ -1,9 +1,8 @@
 {
-  "name": "ol-workshop",
-  "description": "OpenLayers workshop",
+  "name": "webpack-quick-start",
   "version": "0.0.0",
   "private": true,
-  "main": "main.js",
+  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "copy-webpack-plugin": "5.0.2",
@@ -20,8 +19,8 @@
     "webpack-dev-server": "3.2.1"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint",
+    "lint": "tsc && eslint .",
+    "test": "tsc && npm run lint",
     "start": "tsc && webpack-dev-server --mode=development --open",
     "build": "tsc && webpack --mode=production"
   }
