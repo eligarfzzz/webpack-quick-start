@@ -1,3 +1,3 @@
-import { main } from "./src/js/main";
+import { main } from "./build/js/main";
 main();
 // console.log("111");
