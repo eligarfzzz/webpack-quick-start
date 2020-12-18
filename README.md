@@ -19,7 +19,7 @@ npm run start
 npm run build
 ```
 
-./src/ts/ -> ./build/js/ -> ./dist
+`./src/ts/ -> ./build/js/ -> ./dist`
 
 项目入口点`index.js`
 
